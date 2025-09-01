@@ -1,0 +1,138 @@
+############################
+# Unity - Temel Klasörler  #
+############################
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# (Yeni derleyici artıkları)
+[Bb]ee/
+
+# Unity Asset Store yerel önbellek (projede gereksiz)
+[Aa]ssetStore-5.x/
+
+# Otomatik oluşturulan JetBrains Rider eklentisi
+[Aa]ssets/Plugins/Editor/JetBrains*/
+
+
+############################
+# Proje Dosyaları Notları  #
+############################
+# ÖNEMLİ: *.meta dosyalarını ASLA ignore etme.
+# Packages/manifest.json ve packages-lock.json COMMIT edilmeli (sürüm kilidi için).
+
+# Addressables geçici ikililer (varsa)
+[Aa]ssets/AddressableAssetsData/*/*.bin
+[Aa]ssets/AddressableAssetsData/*/*.hash
+
+
+############################
+# IDE / Editör Artıkları   #
+############################
+# Visual Studio / Rider
+.vs/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# VS Code
+.vscode/
+
+# Diğer
+*.tmp
+*.temp
+*.cache
+*.bak
+*.orig
+
+
+############################
+# İşletim Sistemi Dosyaları
+############################
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+############################
+# Platform / Build Artıkları
+############################
+# Android
+*.apk
+*.aab
+*.obb
+*.keystore
+*.jks
+.gradle/
+gradle-app.setting
+
+# iOS / Xcode
+*.xcworkspace/
+*.xcodeproj/
+xcuserdata/
+DerivedData/
+Pods/
+
+# WebGL ek build çıktıları (genelde Build/ altında kalır)
+*.mem
+*.data
+*.symbols.json
+
+
+##########################################
+# Geçici: Büyük Binary Assetleri Hariç Tut
+# (İleride gerekiyorsa bu kısmı kaldır veya LFS'e al)
+##########################################
+# Audio / Video
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.aif*
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Yüksek çöz. görseller / kaynak dosyalar
+*.psd
+*.tga
+*.tif
+*.tiff
+*.exr
+*.hdr
+
+# 3D dosyalar / arşivler
+*.fbx
+*.obj
+*.blend
+*.unitypackage
+*.zip
+*.rar
+*.7z
